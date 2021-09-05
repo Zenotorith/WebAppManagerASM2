@@ -5,8 +5,9 @@
     "\\ASM.web\\Controllers",
     "\\ASM.web\\Views",
     "\\ASM.web\\Views\\Account",
-    "\\ASM.web\\Views\\Admin"
+    "\\ASM.web\\Views\\Admin",
+    "\\ASM.web\\Views\\Shared"
   ],
-  "SelectedNode": "\\ASM.web\\Views\\Admin\\Trainer.cshtml",
+  "SelectedNode": "\\ASM.web\\Views\\Shared\\_LoginPartial.cshtml",
   "PreviewInSolutionExplorer": false
 }
