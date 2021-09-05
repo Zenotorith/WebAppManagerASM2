@@ -147,6 +147,15 @@
     align-content: center;
 }
 
+.btn--create:hover{
+    background: #353535;
+    color: white;
+}
+
+.btn--create > a:hover{
+    color: white;
+}
+
 .register--btn, .back--btn > a {
     border: 1px solid black;
     border-radius: 20px;
@@ -208,3 +217,34 @@ a:hover{
         margin-bottom: 5px;
     }
 
+.frame {
+    border-radius: 20px;
+    padding-bottom: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-shadow: 4px 8px 13px 0px rgba(0,0,0,0.43);
+    box-shadow: 4px 8px 13px 0px rgba(0,0,0,0.43);
+}
+
+.frame--edit {
+    border-radius: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-shadow: 4px 8px 13px 0px rgba(0,0,0,0.43);
+    box-shadow: 4px 8px 13px 0px rgba(0,0,0,0.43);
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background-size: cover;
+}
+
+.register--container--item{
+    margin: 10px;
+}
+
+.form-group{
+    margin: 10px;
+}
