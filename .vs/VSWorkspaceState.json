@@ -8,6 +8,6 @@
     "\\ASM.web\\Views\\Admin",
     "\\ASM.web\\Views\\Shared"
   ],
-  "SelectedNode": "\\ASM.web\\Views\\Shared\\_LoginPartial.cshtml",
+  "SelectedNode": "\\ASM.web\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
