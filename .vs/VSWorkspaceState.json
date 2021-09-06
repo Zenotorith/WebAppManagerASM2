@@ -3,11 +3,7 @@
     "",
     "\\ASM.web",
     "\\ASM.web\\Controllers",
-    "\\ASM.web\\Views",
-    "\\ASM.web\\Views\\Account",
-    "\\ASM.web\\Views\\Admin",
-    "\\ASM.web\\Views\\Shared"
+    "\\ASM.web\\Views"
   ],
-  "SelectedNode": "\\ASM.web\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
