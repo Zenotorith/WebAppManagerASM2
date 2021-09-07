@@ -4,8 +4,10 @@
     "\\ASM.web",
     "\\ASM.web\\Controllers",
     "\\ASM.web\\Views",
+    "\\ASM.web\\Views\\Account",
+    "\\ASM.web\\Views\\Shared",
     "\\ASM.web\\Views\\Train"
   ],
-  "SelectedNode": "\\ASM.web\\Views\\Train\\Course.cshtml",
+  "SelectedNode": "\\ASM.web\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
