@@ -3,7 +3,9 @@
     "",
     "\\ASM.web",
     "\\ASM.web\\Controllers",
-    "\\ASM.web\\Views"
+    "\\ASM.web\\Views",
+    "\\ASM.web\\Views\\Train"
   ],
+  "SelectedNode": "\\ASM.web\\Views\\Train\\Course.cshtml",
   "PreviewInSolutionExplorer": false
 }
