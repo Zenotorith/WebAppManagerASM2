@@ -260,6 +260,9 @@
     <None Include="Properties\PublishProfiles\IISProfile3.pubxml" />
     <None Include="Properties\PublishProfiles\IISProfile4.pubxml" />
     <None Include="Properties\PublishProfiles\IISProfile5.pubxml" />
+    <None Include="Properties\PublishProfiles\IISProfile6.pubxml" />
+    <None Include="Properties\PublishProfiles\IISProfile7.pubxml" />
+    <None Include="Properties\PublishProfiles\IISProfile8.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -295,12 +298,10 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
     <Content Include="Views\Manage\ChangePassword.cshtml" />
     <Content Include="Views\Manage\Index.cshtml" />
     <Content Include="Views\Manage\ManageLogins.cshtml" />
     <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\TrainingStaff\Course.cshtml" />

@@ -1,26 +1,41 @@
 ﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
-@{
-    ViewBag.Title = "Create";
-}
-<br style="height: 500px;" />
-<h2>Create</h2>
-
-<style type="text/css">
-    #tborle, .c {
-        border: none;
-        max-width: 400px;
+<div class="frame--edit text-center">
+    @{
+        ViewBag.Title = "Create";
     }
-</style>
+    <br style="height: 500px;" />
+    <h2>Create</h2>
 
-@using (Html.BeginForm())
-{
+    <style type="text/css">
+        #tborle, .c {
+            border: none;
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .sapcing{
+            padding: 12px;
+        }
+        .table--form{
+            display: flex;
+            justify-content: center;
+            padding: 12px 0;
+        }
+    </style>
+
+    @using (Html.BeginForm())
+    {
+<div class="table--form">
     <table id="tborle">
         <tr>
             <td class="c">Enter Role name to be created</td>
+            <td class="sapcing"></td>
             <td class="c">
-            @Html.EditorFor(m => m.Name)
+                @Html.EditorFor(m => m.Name)
             </td>
         </tr>
     </table>
+</div>
     <input class="btn--create" type="submit" value="Create Role" />
-}
+    }
+</div>

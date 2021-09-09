@@ -1,26 +1,28 @@
 ﻿@model IEnumerable<ASM.web.Models.Course>
-@{
-    ViewBag.Title = "Courses";
-}
-
-<h2>Courses</h2>
-
-@Html.ActionLink("Create", "CourseCreate", "TrainingStaff")
-
-<table class="table">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Category</th>
-        <th>Description</th>
-    </tr>
-    @foreach (var course in Model)
-    {
-        <tr>
-            <td>@course.Id</td>
-            <td>@course.Name</td>
-            <td>@course.CourseCategory.Name</td>
-            <td>@course.Description</td>
-        </tr>
+<div class="frame" style="padding-bottom: 100px; padding-top: 20px;">
+    @{
+        ViewBag.Title = "Courses";
     }
-</table>
+
+    <h2>Courses</h2>
+
+    <button class="btn--create">@Html.ActionLink("Create", "CourseCreate", "TrainingStaff")</button>
+
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Description</th>
+        </tr>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>@course.Id</td>
+                <td>@course.Name</td>
+                <td>@course.CourseCategory.Name</td>
+                <td>@course.Description</td>
+            </tr>
+        }
+    </table>
+</div>

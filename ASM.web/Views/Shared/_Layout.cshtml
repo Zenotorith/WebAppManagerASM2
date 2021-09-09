@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container">
-            <p class="navbar-brand logo nav-item text-black">LMS FPT</p><button data-bs-toggle="collapse" class="navbar-toggler gradient" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <p class="navbar-brand logo nav-item">LMS FPT</p><button data-bs-toggle="collapse" class="navbar-toggler gradient" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                    <li class="nav-item text-white">
                         @Html.ActionLink("Home", "Index", "Home")
                     @if ((User.IsInRole("Trainee")) || (User.IsInRole("Trainer")))
                     {
