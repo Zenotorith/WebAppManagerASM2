@@ -7,8 +7,9 @@
     "\\ASM.web\\Views\\Account",
     "\\ASM.web\\Views\\Manage",
     "\\ASM.web\\Views\\Shared",
-    "\\ASM.web\\Views\\Train"
+    "\\ASM.web\\Views\\Train",
+    "\\ASM.web\\Views\\TrainingStaff"
   ],
-  "SelectedNode": "\\ASM.web\\Web.config",
+  "SelectedNode": "\\ASM.web\\Views\\TrainingStaff\\Edit.cshtml",
   "PreviewInSolutionExplorer": false
 }
